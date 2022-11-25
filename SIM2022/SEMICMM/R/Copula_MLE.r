@@ -19,8 +19,6 @@
 #' @examples points(P.time,ans$IE-ans$IE_sd,type="l",ylim=c(-0.5,0.5),col=2)
 #' @examples legend(0,0.45,c("direct effect","indirect effect"),col=1:2,lty=1)
 
-source("est_rest.r")
-
 
 CP_MLE=function(data,P.time,int_theta,tol,step){
 
